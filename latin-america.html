@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball in Latin America</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="latin-page">
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">⚾ Baseball Learning</a>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-landmark"></i> USA History</a>
+                <a href="latin-america.html" class="active"><i class="fas fa-globe-americas"></i> Latin America</a>
+                <a href="rules.html"><i class="fas fa-baseball-ball"></i> Rules & Gameplay</a>
+                <a href="index.html#glossary"><i class="fas fa-book"></i> Glossary</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Baseball in Latin America</h1>
+            <p class="hero-subtitle">A passionate tradition across many nations</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="content-section">
+            <div class="content-with-image reverse">
+                <div class="image-content">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Baseball_pictogram.svg/400px-Baseball_pictogram.svg.png" alt="Baseball player silhouette" class="content-image">
+                    <p class="image-caption">Baseball player symbol | Source: Wikimedia Commons</p>
+                </div>
+                <div class="text-content">
+                    <h2><i class="fas fa-globe-americas"></i> Baseball's Journey to Latin America</h2>
+                    <p>Baseball arrived in Latin America in the late 19th century through multiple routes: Cuban students returning from studies in the United States, American sailors visiting Caribbean ports, and American workers on sugar plantations and railroads. The sport first took root in Cuba in the 1860s, introduced by Cuban students who had attended school in the U.S. and American sailors stationed in Havana harbor.</p>
+                    
+                    <p>Unlike in the United States where baseball developed as a professional sport, in many Latin American countries it became deeply intertwined with national identity and cultural resistance. In Cuba during the struggle for independence from Spain, baseball symbolized modernity and democracy, contrasting with Spanish bullfighting which represented colonial tradition.</p>
+                    
+                    <h3><i class="fas fa-map-marked-alt"></i> Baseball Traditions by Country</h3>
+                    <div class="countries-grid">
+                        <div class="country-card">
+                            <h4><i class="fas fa-flag"></i> Cuba</h4>
+                            <p>Baseball introduced in 1860s. Became symbol of anti-colonial resistance against Spain. Cuba has won multiple Olympic gold medals in baseball and developed one of the world's strongest amateur systems despite player defections to MLB.</p>
+                        </div>
+                        <div class="country-card">
+                            <h4><i class="fas fa-flag"></i> Dominican Republic</h4>
+                            <p>Produces more MLB players per capita than any other country. Baseball introduced by Cuban immigrants and American sugar companies. Known for producing powerful hitters and talented shortstops. Winter baseball league is national passion.</p>
+                        </div>
+                        <div class="country-card">
+                            <h4><i class="fas fa-flag"></i> Puerto Rico</h4>
+                            <p>Professional league established 1938. Has produced Hall of Famers like Roberto Clemente and Iván Rodríguez. Baseball here blends American and Latin styles. Puerto Rican players are U.S. citizens but play for Puerto Rico in international competitions.</p>
+                        </div>
+                        <div class="country-card">
+                            <h4><i class="fas fa-flag"></i> Venezuela</h4>
+                            <p>Baseball introduced by American oil workers in 1920s. Known for producing outstanding pitchers and all-around athletes. Venezuelan winter league draws large crowds and MLB stars return home to play in offseason.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="image-gallery">
+            <h2><i class="fas fa-images"></i> Latin American Baseball Culture</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Flag_of_Cuba.svg/400px-Flag_of_Cuba.svg.png" alt="Cuban flag">
+                    <p>Cuba: Where baseball began in Latin America</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/400px-Flag_of_the_Dominican_Republic.svg.png" alt="Dominican flag">
+                    <p>Dominican Republic: MLB player factory</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/400px-Flag_of_Puerto_Rico.svg.png" alt="Puerto Rican flag">
+                    <p>Puerto Rico: Professional league since 1938</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="quiz-section">
+            <h2><i class="fas fa-question-circle"></i> Latin America Baseball Quiz</h2>
+            <div class="quiz-box">
+                <div class="quiz-question" id="quiz-question-la">Which Latin American country produces the most MLB players per capita (per person)?</div>
+                <div class="quiz-options">
+                    <button class="quiz-option" onclick="checkAnswerLA(this, 'correct')">Dominican Republic</button>
+                    <button class="quiz-option" onclick="checkAnswerLA(this, 'wrong')">Cuba</button>
+                    <button class="quiz-option" onclick="checkAnswerLA(this, 'wrong')">Mexico</button>
+                    <button class="quiz-option" onclick="checkAnswerLA(this, 'wrong')">Venezuela</button>
+                </div>
+                <div class="quiz-feedback" id="quiz-feedback-la"></div>
+                <div class="quiz-explanation">
+                    <p><strong>Answer Explanation:</strong> The Dominican Republic, with a population of about 11 million, produces more MLB players per capita than any other country. Despite Cuba's strong baseball tradition, the Dominican Republic's baseball academies and year-round warm weather make it the top producer of MLB talent relative to its population size.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="references-section">
+            <h2><i class="fas fa-bookmark"></i> References & Sources</h2>
+            <div class="references-box">
+                <h3>Academic Sources:</h3>
+                <ul>
+                    <li>Burgos, A. (2007). <em>Playing America's Game: Baseball, Latinos, and the Color Line</em>. Berkeley, CA: University of California Press.</li>
+                    <li>González Echevarría, R. (1999). <em>The Pride of Havana: A History of Cuban Baseball</em>. New York, NY: Oxford University Press.</li>
+                    <li>Klein, A. M. (2014). <em>Dominican Baseball: New Pride, Old Prejudice</em>. Philadelphia, PA: Temple University Press.</li>
+                </ul>
+                
+                <h3>Image Credits:</h3>
+                <ul>
+                    <li>All flag images from Wikimedia Commons (public domain)</li>
+                    <li>Baseball pictogram: Public domain via Wikimedia</li>
+                    <li>Educational use under fair use guidelines</li>
+                </ul>
+                
+                <div class="copyright-notice">
+                    <p><strong>Copyright Compliance:</strong> Flag images are in the public domain. All content created for educational classroom use with students aged 12-14.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Baseball Learning Project</h3>
+                <p>Educational website for students aged 12-14</p>
+            </div>
+            <div class="footer-section">
+                <h3>Pages</h3>
+                <a href="index.html">USA History</a>
+                <a href="latin-america.html">Latin America</a>
+                <a href="rules.html">Rules & Gameplay</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Baseball History Educational Project | Created for educational purposes</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
