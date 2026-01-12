@@ -796,4 +796,305 @@ body {
     width: 100%;
 }
 
+/* ===== TEACHING PAGE STYLES ===== */
+.teaching-page .hero {
+    background: linear-gradient(rgba(155,89,182,0.9), rgba(155,89,182,0.7));
+}
 
+/* Simple approach */
+.simple-approach {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.approach-item {
+    background: #f0f8ff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-left: 5px solid #9B59B6;
+}
+
+.approach-icon {
+    font-size: 2rem;
+}
+
+.approach-text h3 {
+    margin: 0 0 0.5rem 0;
+    color: #9B59B6;
+}
+
+/* Activity cards */
+.activity-card.simple {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    border: 2px solid #e3f2fd;
+}
+
+.activity-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #eee;
+}
+
+.activity-icon {
+    font-size: 2.5rem;
+}
+
+.activity-meta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.activity-duration, .activity-group {
+    background: #e8f4f8;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #005A9C;
+}
+
+/* Simple materials */
+.simple-materials {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.material-badge {
+    background: #e3f2fd;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #005A9C;
+}
+
+/* Simple steps */
+.simple-steps {
+    margin: 1.5rem 0;
+}
+
+.simple-step {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+}
+
+.step-number {
+    background: #9B59B6;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.simple-step p {
+    margin: 0;
+    padding-top: 0.2rem;
+}
+
+/* Simple goals */
+.simple-goals {
+    background: #f0f8ff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    border-left: 5px solid #9B59B6;
+}
+
+.simple-goals li {
+    margin-bottom: 0.5rem;
+}
+
+/* Activity tip */
+.activity-tip {
+    background: #fff8e1;
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 4px solid #ffcc00;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+}
+
+.activity-tip i {
+    color: #ffcc00;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+/* Player grid */
+.player-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.player-card {
+    background: #f0f8ff;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid #e3f2fd;
+}
+
+.player-card h4 {
+    color: #005A9C;
+    margin-bottom: 0.5rem;
+}
+
+.player-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+/* Presentation template */
+.presentation-template {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 2px dashed #005A9C;
+    font-style: italic;
+    color: #555;
+    margin: 1rem 0;
+}
+
+/* Combination section */
+.combination-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    margin: 2rem 0;
+}
+
+.week-plan {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.day-plan {
+    background: #f0f8ff;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #e3f2fd;
+}
+
+.day {
+    background: #9B59B6;
+    color: white;
+    padding: 0.3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.day-plan p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Learning outcomes */
+.outcomes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.outcome {
+    background: #e8f4f8;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.outcome i {
+    color: #005A9C;
+    font-size: 1.5rem;
+}
+
+.outcome p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Tips section */
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.tip-card {
+    background: #f0f8ff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #e3f2fd;
+}
+
+.tip-card i {
+    color: #9B59B6;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.tip-card h4 {
+    color: #005A9C;
+    margin-bottom: 0.5rem;
+}
+
+.tip-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .simple-approach {
+        grid-template-columns: 1fr;
+    }
+    
+    .player-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .week-plan {
+        grid-template-columns: 1fr;
+    }
+    
+    .outcomes-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
