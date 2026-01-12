@@ -745,3 +745,55 @@ body {
 .latin-page .hero { background: linear-gradient(rgba(220,53,69,0.9), rgba(220,53,69,0.7)); }
 .rules-page .hero { background: linear-gradient(rgba(40,167,69,0.9), rgba(40,167,69,0.7)); }
 [file content end]
+
+/* ===== IMAGE PLACEHOLDERS ===== */
+.image-placeholder {
+  /* ===== IMAGE PLACEHOLDERS ===== */
+.image-placeholder {
+    background: linear-gradient(135deg, #005A9C, #0d3b66);
+    color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ffcc00;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.placeholder-icon {
+    font-size: 60px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.image-placeholder h4 {
+    margin: 10px 0;
+    font-size: 1.3rem;
+    color: #ffcc00;
+}
+
+.image-placeholder p {
+    opacity: 0.9;
+    font-size: 0.9rem;
+    max-width: 80%;
+    line-height: 1.4;
+}
+
+/* Gallery specific */
+.gallery-item .image-placeholder {
+    height: 250px;
+    margin: 0;
+    background: linear-gradient(135deg, #0d3b66, #1d3557);
+}
+
+/* Content image specific */
+.image-content .image-placeholder {
+    width: 100%;
+}
+
+
