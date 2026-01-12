@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Rules & Gameplay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="rules-page">
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">⚾ Baseball Learning</a>
+            <div class="nav-links">
+                <a href="index.html"><i class="fas fa-landmark"></i> USA History</a>
+                <a href="latin-america.html"><i class="fas fa-globe-americas"></i> Latin America</a>
+                <a href="rules.html" class="active"><i class="fas fa-baseball-ball"></i> Rules & Gameplay</a>
+                <a href="index.html#glossary"><i class="fas fa-book"></i> Glossary</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Baseball Rules & How to Play</h1>
+            <p class="hero-subtitle">Learn the game step by step</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="rules-section">
+            <h2><i class="fas fa-list-ol"></i> Basic Rules of Baseball</h2>
+            <div class="rules-grid">
+                <div class="rule-card">
+                    <div class="rule-number">1</div>
+                    <h3>Objective</h3>
+                    <p>Score more runs than the opposing team by hitting the ball and running around four bases to reach home plate.</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-number">2</div>
+                    <h3>Teams & Positions</h3>
+                    <p>Two teams of 9 players: pitcher, catcher, four infielders (1B, 2B, 3B, SS), and three outfielders (LF, CF, RF).</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-number">3</div>
+                    <h3>Game Structure</h3>
+                    <p>A game consists of 9 innings. Each team bats once per inning, trying to score runs while the other team plays defense.</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-number">4</div>
+                    <h3>Strikes & Balls</h3>
+                    <p>Three strikes = batter is out. Four balls = batter walks to first base. A strike is a pitch in the "strike zone" that the batter doesn't swing at, or any swing that misses.</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-number">5</div>
+                    <h3>Getting Outs</h3>
+                    <p>Three ways to get outs: strikeout (3 strikes), fly out (catch ball before it hits ground), or force out (defender with ball reaches base before runner).</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-number">6</div>
+                    <h3>Scoring Runs</h3>
+                    <p>A run scores when a player successfully circles all bases and touches home plate. Home runs (hit over outfield fence) score automatically.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="image-gallery">
+            <h2><i class="fas fa-images"></i> Baseball Field & Equipment</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Baseball_diamond.svg/400px-Baseball_diamond.svg.png" alt="Baseball field diagram">
+                    <p>Baseball field showing positions and measurements</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Baseball_%28crop%29.jpg/400px-Baseball_%28crop%29.jpg" alt="Baseball">
+                    <p>Official baseball with red stitching</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Baseball_bat.svg/400px-Baseball_bat.svg.png" alt="Baseball bat">
+                    <p>Wooden baseball bat diagram</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="positions-section">
+            <h2><i class="fas fa-baseball-ball"></i> Field Positions & Responsibilities</h2>
+            <div class="baseball-field">
+                <div class="field-container">
+                    <div class="position pitcher" onclick="showPositionInfo('Pitcher')">P</div>
+                    <div class="position catcher" onclick="showPositionInfo('Catcher')">C</div>
+                    <div class="position first" onclick="showPositionInfo('First Base')">1B</div>
+                    <div class="position second" onclick="showPositionInfo('Second Base')">2B</div>
+                    <div class="position third" onclick="showPositionInfo('Third Base')">3B</div>
+                    <div class="position shortstop" onclick="showPositionInfo('Shortstop')">SS</div>
+                    <div class="position left" onclick="showPositionInfo('Left Field')">LF</div>
+                    <div class="position center" onclick="showPositionInfo('Center Field')">CF</div>
+                    <div class="position right" onclick="showPositionInfo('Right Field')">RF</div>
+                </div>
+                <div class="position-info" id="position-info">
+                    <h3>Click on a position to learn more!</h3>
+                    <p>Each position has special responsibilities in the game. Pitchers throw to batters, catchers catch pitches, infielders field ground balls, and outfielders catch fly balls.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="steps-section">
+            <h2><i class="fas fa-play-circle"></i> How to Play - Step by Step</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-icon">1</div>
+                    <div class="step-content">
+                        <h4>Pitching</h4>
+                        <p>The pitcher stands on the mound 60 feet 6 inches from home plate. They throw different types of pitches (fastball, curveball, slider) trying to get the batter out or induce weak contact.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-icon">2</div>
+                    <div class="step-content">
+                        <h4>Batting</h4>
+                        <p>The batter stands in the batter's box trying to hit the pitched ball. Good batting requires hand-eye coordination, timing, and understanding of different pitch types.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-icon">3</div>
+                    <div class="step-content">
+                        <h4>Base Running</h4>
+                        <p>After hitting the ball, the batter becomes a runner and must reach first base before the ball. Runners can advance on hits by teammates or steal bases when pitcher throws to home.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-icon">4</div>
+                    <div class="step-content">
+                        <h4>Fielding</h4>
+                        <p>Defensive players try to catch batted balls or retrieve them quickly to make outs. Infielders field ground balls, outfielders catch fly balls, and all fielders must make accurate throws.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-icon">5</div>
+                    <div class="step-content">
+                        <h4>Scoring</h4>
+                        <p>A runner scores by touching all four bases in order (1st, 2nd, 3rd, home) without being put out. Teams score multiple runs by having multiple runners circle the bases.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quiz-section">
+            <h2><i class="fas fa-gamepad"></i> Baseball Rules Quiz</h2>
+            <div class="quiz-box">
+                <div class="quiz-question" id="quiz-question-rules">How many strikes does a batter get before being called out?</div>
+                <div class="quiz-options">
+                    <button class="quiz-option" onclick="checkAnswerRules(this, 'wrong')">2</button>
+                    <button class="quiz-option" onclick="checkAnswerRules(this, 'correct')">3</button>
+                    <button class="quiz-option" onclick="checkAnswerRules(this, 'wrong')">4</button>
+                    <button class="quiz-option" onclick="checkAnswerRules(this, 'wrong')">5</button>
+                </div>
+                <div class="quiz-feedback" id="quiz-feedback-rules"></div>
+                <div class="quiz-explanation">
+                    <p><strong>Answer Explanation:</strong> A batter receives three strikes before being called out. A strike can be: 1) a swing and miss, 2) a pitch in the strike zone that the batter doesn't swing at, or 3) a foul ball (except with two strikes). The "three strikes you're out" rule is fundamental to baseball.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="references-section">
+            <h2><i class="fas fa-bookmark"></i> References & Learning Resources</h2>
+            <div class="references-box">
+                <h3>Official Rules & Guides:</h3>
+                <ul>
+                    <li>Major League Baseball. (2023). <em>Official Baseball Rules: 2023 Edition</em>. New York, NY: Office of the Commissioner of Baseball.</li>
+                    <li>National Federation of State High School Associations. (2022). <em>NFHS Baseball Rules Book</em>. Indianapolis, IN: NFHS Publications.</li>
+                    <li>USA Baseball. (2023). <em>Youth Baseball Coaching Guide</em>. Durham, NC: USA Baseball.</li>
+                </ul>
+                
+                <h3>Image Credits:</h3>
+                <ul>
+                    <li>All diagrams from Wikimedia Commons under public domain</li>
+                    <li>Field diagram: Public domain via Wikimedia</li>
+                    <li>Equipment images: Public domain photographs</li>
+                </ul>
+                
+                <div class="copyright-notice">
+                    <p><strong>Copyright Compliance:</strong> All images used are in the public domain. Text content created for educational classroom use with students aged 12-14 under fair use guidelines.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Baseball Learning Project</h3>
+                <p>For students aged 12-14 | Final Assignment</p>
+            </div>
+            <div class="footer-section">
+                <h3>Interactive Features</h3>
+                <a href="#timeline">Timeline</a>
+                <a href="#quiz">Quiz</a>
+                <a href="index.html#glossary">Glossary</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Educational Baseball Project | Foreign Language Department</p>
+            <p class="teacher-note">Teacher feedback: Share with Bilingual Coordinator for input</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
